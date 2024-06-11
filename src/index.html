@@ -10,19 +10,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link id="theme-style" rel="stylesheet" href="light-mode.css">
 </head>
 
 <body>
   <main>
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid px-10">
+      <div class="container-fluid px-3">
+        <a class="navbar-brand" href="#">
         <img src="./public/alarado-icon-homepage.svg" alt="Alarado-icon">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
@@ -40,14 +42,18 @@
             </li>
           </ul>
 
-        </div>
+        <div class="d-flex ms-3">
+          <button id="dark-mode">
         <img src="./public/Moon_fill.svg" alt="half-moon">
+        </button>
+        <button id="light-mode">
         <img src="./public/Sun_fill.svg" alt="Sun">
+        </button>
       </div>
     </nav>
 
     <div class="container m-5">
-      <div class="row">
+      <div class="row d-flex flex-column-reverse flex-lg-row">
         <div class="col">
           <p>😎  Simple way to communicate</p>
           <h1>Actions for Accessibility in Design</h1>
