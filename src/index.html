@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid px-3">
         <a class="navbar-brand" href="#">
-        <img src="./public/alarado-icon-homepage.svg" alt="Alarado-icon">
+        <img src="./public/alarado-icon-homepage.svg" alt="Alarado-icon" id="brand-icon">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,9 +42,9 @@
             </li>
           </ul>
 
-        <div class="d-flex ms-3">
+        <div class=" toggle-buttons d-flex ms-3">
           <button id="dark-mode">
-        <img src="./public/Moon_fill.svg" alt="half-moon">
+        <img src="./public/Moon_fill.svg" alt="half-moon" id="moon-image">
         </button>
         <button id="light-mode">
         <img src="./public/Sun_fill.svg" alt="Sun">
@@ -55,7 +55,7 @@
     <div class="container m-5">
       <div class="row d-flex flex-column-reverse flex-lg-row">
         <div class="col">
-          <p>😎  Simple way to communicate</p>
+          <p class="light-text">😎  Simple way to communicate</p>
           <h1>Actions for Accessibility in Design</h1>
           <p>The fastest way to build and deploy websites with resusable components.</p>
           <button type="button" class="btn btn-primary">Get started</button>
@@ -81,6 +81,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <script src="./theme.js"></script>
 </body>
 
 </html>

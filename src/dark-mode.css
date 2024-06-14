@@ -1,0 +1,43 @@
+body{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.125rem;
+    background-color: #111729;
+    color: #909090;
+}
+
+.nav-item > .nav-link{
+    margin: 5px;
+    color: #909090;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+
+h1{
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+button{
+    font-size: 1rem;
+}
+
+.toggle-buttons > button{
+    background-color: #223344;
+    border-radius: 5px;
+}
+
+.toggle-buttons > img{
+    background-color: #ffffff;
+}
+
+.light-text{
+    color: #ffffff;
+}
+
+.small-text{
+    font-size: 0.875rem;
+}
