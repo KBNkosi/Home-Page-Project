@@ -20,3 +20,27 @@ button{
 .small-text{
     font-size: 0.875rem;
 }
+
+.toggle-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.toggle-buttons img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Align navigation items to the left */
+.navbar-nav {
+  margin-left: 0;
+}
