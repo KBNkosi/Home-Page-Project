@@ -23,7 +23,7 @@ A simple homepage with light and dark mode functionality.
     ```
 2. Navigate to the project directory:
     ```sh
-    cd Home-Page-Project/src
+    cd Home-Page-Project
     ```
 3. Open `index.html` in your web browser.
 
